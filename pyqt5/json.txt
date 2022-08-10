@@ -1,0 +1,23 @@
+{
+	"team_name": "jimmy-ai",
+	"topic": "machine learning",
+	"start_date": "2022-02-23",
+	"member_list":
+		{
+			"group_a":
+				[
+					{ "id": "101", "name": "aaa" },
+					{ "id": "102", "name": "bbb" },
+					{ "id": "103", "name": "ccc" },
+					{ "id": "104", "name": "ddd" }
+				]
+			,
+			"group_b":
+				[
+					{ "id": "201", "name": "eee" },
+					{ "id": "202", "name": "fff" },
+					{ "id": "203", "name": "ggg" },
+					{ "id": "204", "name": "hhh" }
+				]
+		}
+}

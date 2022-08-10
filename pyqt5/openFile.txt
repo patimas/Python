@@ -1,0 +1,5400 @@
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+
+create table aaa (
+a
+b
+c
+d
+)tablespace tt
+;
+
+create    table bbb  
+(
+fdfwe  varchar2(10),
+few  number(22)
+)
+;
+

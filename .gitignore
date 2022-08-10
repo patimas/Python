@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+img/*
+tkinter/Lib/*
+tkinter/Scripts/*
+pyqt5/Lib/*
+pyqt5/Scripts/*
