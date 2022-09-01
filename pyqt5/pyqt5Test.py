@@ -1,15 +1,14 @@
-import sys, os, pickle
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QAction, qApp, QDesktopWidget, QGridLayout, \
-                            QLabel, QLineEdit, QVBoxLayout, QTabWidget, QMenuBar, QMenu, QPushButton, QHBoxLayout, QGroupBox, \
-                            QMessageBox, QTableWidget, QTableWidgetItem, QAbstractItemView, QCheckBox, QComboBox, QFileDialog
+import sys, os, pickle   # 파일 입출력 처리
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QAction, QDesktopWidget, QGridLayout, \
+                            QLabel, QLineEdit, QVBoxLayout, QTabWidget, QMenu, QPushButton, QHBoxLayout, QGroupBox, \
+                            QMessageBox, QTableWidget, QTableWidgetItem, QCheckBox, QComboBox, QFileDialog, \
+                            QSlider, QRadioButton, QTextEdit
 from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import QDateTime, QDate, Qt, QTime, QTimer
+from PyQt5.QtCore import QDate, QTime, QTimer, Qt
 from datetime import timedelta
-
 from pathlib import Path
 
-# 비활성 매크로
-import win32api, win32con, win32gui
+from openpyxl import Workbook, load_workbook
 
 class MyApp(QMainWindow):
 
@@ -34,7 +33,7 @@ class MyApp(QMainWindow):
     def initUI(self):
         
         self.setWindowTitle('PyQt5 GUI')
-        self.setGeometry(300, 150, 800,400)
+        self.setGeometry(200, 200, 450,350)
         # self.setWindowIcon(QIcon(imgPath+'tray.ico'))  # Application Icon Setting
         
         #  현재 날짜 설정
@@ -53,7 +52,7 @@ class MyApp(QMainWindow):
 
         self._OpneConfig()
 
-        self._CenterArea()
+        # self._CenterArea()   # 창 가운데 정렬
 
         # Tab 호출
         self.TabWidget = TabWidget(self)
@@ -208,6 +207,10 @@ class MyApp(QMainWindow):
         # Tab3Table 의 전체 Row수를 별도로 기입 한다.
         configValueInput['tab3TableTotalCount'] = self.TabWidget.tab3Table.rowCount()
 
+        # tab8
+        configValueInput['tab8TextEdit01'] = self.TabWidget.tab8TextEdit01.toPlainText()
+        configValueInput['tab8TextEdit02'] = self.TabWidget.tab8TextEdit02.toPlainText()
+
         f = open(self.configFileFullPath,'wb')
         pickle.dump(configValueInput, f)
         f.close()
@@ -221,28 +224,35 @@ class MyApp(QMainWindow):
         print('Config Load Start!!!')
 
         print(self.configValueRead)
+        try:
 
+            # tab2
+            for i in range(9):
+                if 'tab2LineEdit'+str(i).zfill(2)  in self.configValueRead:
+                    self.TabWidget.tab2LineEdit[i].setText( self.configValueRead['tab2LineEdit'+str(i).zfill(2)] )
+                    
+                    
+            # tab3
+            if 'tab3TableTotalCount' in self.configValueRead:
+                tab3TableMaxCount = self.configValueRead['tab3TableTotalCount']
+                self.TabWidget.tab3Table.setRowCount(tab3TableMaxCount)
 
-        # tab2
-        for i in range(9):
-            if 'tab2LineEdit'+str(i).zfill(2)  in self.configValueRead:
-                self.TabWidget.tab2LineEdit[i].setText( self.configValueRead['tab2LineEdit'+str(i).zfill(2)] )
-                
-                
-        # tab3
-        if 'tab3TableTotalCount' in self.configValueRead:
-            tab3TableMaxCount = self.configValueRead['tab3TableTotalCount']
-            self.TabWidget.tab3Table.setRowCount(tab3TableMaxCount)
+                for i in range(tab3TableMaxCount):
+                    self.TabWidget.tab3Table.setCellWidget(i, 0, QCheckBox())
+                    for j in range(self.TabWidget.tab3TableColumn):
+                        if j > 0:
+                            print('tableWidjet : '+self.configValueRead['tab3Table'+str(i)+str(j)])
+                            self.TabWidget.tab3Table.setItem(i, j, QTableWidgetItem(self.configValueRead['tab3Table'+str(i)+str(j)]))
 
-            for i in range(tab3TableMaxCount):
-                self.TabWidget.tab3Table.setCellWidget(i, 0, QCheckBox())
-                for j in range(self.TabWidget.tab3TableColumn):
-                    if j > 0:
-                        print('tableWidjet : '+self.configValueRead['tab3Table'+str(i)+str(j)])
-                        self.TabWidget.tab3Table.setItem(i, j, QTableWidgetItem(self.configValueRead['tab3Table'+str(i)+str(j)]))
+            # tab8
+            self.TabWidget.tab8TextEdit01.setText(self.configValueRead['tab8TextEdit01'])
+            self.TabWidget.tab8TextEdit02.setText(self.configValueRead['tab8TextEdit02'])
 
-        print('Config Load End!!!')
-        # print(f)
+            print('Config Load End!!!')
+        except:
+            print("Error Bye~~~~")
+        finally:
+            print("End Bye~~~~")
 
 
 # Tab 설정
@@ -257,18 +267,21 @@ class TabWidget(QWidget):
         self.tab1 = QWidget()
         self.tab2 = QWidget()
         self.tab3 = QWidget()
+        self.tab8 = QWidget()
         self.tab9 = QWidget()  # 설정
 
         # Tab 추가
         self.tabs.addTab(self.tab1, '시스템')
         self.tabs.addTab(self.tab2, '엑셀')
         self.tabs.addTab(self.tab3, '쭈~')
+        self.tabs.addTab(self.tab8, '반복')
         self.tabs.addTab(self.tab9, '기타')
 
         # Tab 설정
         self._tab1()   # 시스템 종료
         self._tab2()   # 엑셀(데이터 설계서 만들기 매크로)
         self._tab3()   # 그리드 데이터 표
+        self._tab8()   # 프로시저 일괄 생성
         self._tab9()   # 기타 기능
 
         # 위젯에 탭 추가
@@ -291,6 +304,13 @@ class TabWidget(QWidget):
         self.tab1ComboBox02 = QComboBox()
         self.tab1ComboBox03 = QComboBox()
         self.tab1Label01 = QLabel()
+        self.tab1Slider = QSlider(Qt.Horizontal)
+        self.tab1Slider.setTickInterval(20)
+        self.tab1Slider.setTickPosition(QSlider.TicksAbove)
+        self.tab1SliderLabel = QLabel()
+        self.tab1RadioBtn01 = QRadioButton()
+        self.tab1RadioBtn02 = QRadioButton()
+
 
 
         tab1TimeHarf = ['오전','오후']
@@ -298,48 +318,37 @@ class TabWidget(QWidget):
         tab1TimeMinute = ['00','10','20','30','40','50']
 
         tab1LeftGrid = QGridLayout()
-        tab1LeftGrid.addWidget(self.shutdownBtn, 0, 0)
-        tab1LeftGrid.addWidget(self.shutdownCancelBtn, 0, 1)
-        tab1LeftGrid.addWidget(QLabel('시   간 : '), 1, 0)
+        tab1LeftGrid.addWidget(self.shutdownBtn, 0, 1)
+        tab1LeftGrid.addWidget(self.shutdownCancelBtn, 0, 2)
 
-        tab1LeftGrid.addWidget(self.tab1ComboBox01, 1, 1)
-        tab1LeftGrid.addWidget(self.tab1ComboBox02, 1, 2)
-        tab1LeftGrid.addWidget(self.tab1ComboBox03, 1, 3)
+        tab1LeftGrid.addWidget(self.tab1RadioBtn01, 1, 0)
+        tab1LeftGrid.addWidget(self.tab1Slider, 1, 1, 1, 2)  # row, column, 행, 열
+        tab1LeftGrid.addWidget(self.tab1SliderLabel, 1, 3)  # row, column, 행, 열
 
-        tab1LeftGrid.addWidget(self.tab1Label01, 0, 2, 1, 2)  # row, column, 행, 열
+        tab1LeftGrid.addWidget(self.tab1RadioBtn02, 2, 0)
+        tab1LeftGrid.addWidget(self.tab1ComboBox01, 2, 1)
+        tab1LeftGrid.addWidget(self.tab1ComboBox02, 2, 2)
+        tab1LeftGrid.addWidget(self.tab1ComboBox03, 2, 3)
+        
+        tab1LeftGrid.addWidget(self.tab1Label01, 0, 3)  # row, column, 행, 열
+        
 
         self.tab1ComboBox01.addItems(tab1TimeHarf)
         self.tab1ComboBox02.addItems(tab1TimeHour)
         self.tab1ComboBox03.addItems(tab1TimeMinute)
 
+        self.tab1RadioBtn01.setChecked(True)
         self.shutdownBtn.clicked.connect(self._shutdown)
         self.shutdownCancelBtn.clicked.connect(self._shutdownCancel)
+        self.tab1Slider.valueChanged.connect(self._tab1SliderLabel)
 
         # self.tab1ComboBox01.currentIndexChanged.connect(self._tab1ComboBoxEvent)  # ComboBox 선택 이벤트
-
-
-        # 2.매크로 설정
-        tab1MacroGBox = QGroupBox('매크로')
-        tab1MacroGrid = QGridLayout()
-
-        self.tab1MacroStartBtn = QPushButton('시작')
-        self.tab1MacroStopBtn = QPushButton('종료')
-        self.tab1MacroLabel01 = QLabel()
-
-        tab1MacroGrid.addWidget(self.tab1MacroStartBtn,0,0)
-        tab1MacroGrid.addWidget(self.tab1MacroStopBtn,0,1)
-        tab1MacroGrid.addWidget(self.tab1MacroLabel01,0,2)
-
-        self.tab1MacroStartBtn.clicked.connect(self._tab1MacroStart)
-        # self.tab1MacroStopBtn.clicked.connect(self._tab1MacroStop)
 
 
         tab1OutLayout.addLayout(tab1LeftLayout)
         tab1OutLayout.addLayout(tab1RightLayout)
         tab1LeftLayout.addWidget(tab1LeftGroupBox)
-        tab1LeftLayout.addWidget(tab1MacroGBox)
         tab1LeftGroupBox.setLayout(tab1LeftGrid)
-        tab1MacroGBox.setLayout(tab1MacroGrid)
 
         tab1OutLayout.addStretch()
         tab1LeftLayout.addStretch()
@@ -468,6 +477,49 @@ class TabWidget(QWidget):
         
         self.tab3.setLayout(tab3OutLayout)
 
+    def _tab8(self):
+        tab8OutLayout = QHBoxLayout()
+
+        tab8LeftLayout = QVBoxLayout()
+        tab8RightLayout = QVBoxLayout()
+
+        # Group Box 1
+        tab8GroupBox1 = QGroupBox('소스')
+        tab8InnerLayout1 = QHBoxLayout()
+        self.tab8FilePath = QLineEdit()
+        self.tab8FilePathdBtn = QPushButton('찾기')
+        self.tab8ActionBtn = QPushButton('시작')
+        tab8InnerLayout1.addWidget(self.tab8FilePath)
+        tab8InnerLayout1.addWidget(self.tab8FilePathdBtn)
+        tab8InnerLayout1.addWidget(self.tab8ActionBtn)
+
+        # Group Box 2
+        tab8GroupBox2 = QGroupBox('Text')
+        tab8InnerLayout2 = QVBoxLayout()
+        self.tab8TextEdit01 = QTextEdit()
+        self.tab8TextEdit02 = QTextEdit()
+        self.tab8TextEdit01.setAcceptRichText(False)  # 모두 플레인 텍스트로 인식합니다.
+        self.tab8TextEdit02.setAcceptRichText(False)  # 모두 플레인 텍스트로 인식합니다.
+        tab8InnerLayout2.addWidget(self.tab8TextEdit01)
+        tab8InnerLayout2.addWidget(self.tab8TextEdit02)
+
+
+        # Action Event
+        self.tab8FilePathdBtn.clicked.connect(lambda: self._fileOpen(self.tab8FilePath))
+        self.tab8ActionBtn.clicked.connect(self._tab8ExcelCreate)
+
+
+        # Set Layout
+        tab8OutLayout.addLayout(tab8LeftLayout)
+        tab8OutLayout.addLayout(tab8RightLayout)
+        tab8LeftLayout.addWidget(tab8GroupBox1)
+        tab8LeftLayout.addWidget(tab8GroupBox2)
+
+        tab8GroupBox1.setLayout(tab8InnerLayout1)
+        tab8GroupBox2.setLayout(tab8InnerLayout2)
+
+        self.tab8.setLayout(tab8OutLayout)
+
 
     def _tab9(self):
         tab9OutLayout = QHBoxLayout()
@@ -482,7 +534,8 @@ class TabWidget(QWidget):
         self.tab9FilePathdBtn = QPushButton('찾기')
         tab9LeftInnerLayout1.addWidget(self.tab9FilePath)
         tab9LeftInnerLayout1.addWidget(self.tab9FilePathdBtn)
-        
+
+
         # Group Box 2
         tab9LeftGroupBox2 = QGroupBox('Action')
         tab9LeftInnerLayout2 = QHBoxLayout()
@@ -495,7 +548,7 @@ class TabWidget(QWidget):
 
 
         # Action Event
-        self.tab9FilePathdBtn.clicked.connect(self._tab9FileOpen)
+        self.tab9FilePathdBtn.clicked.connect(lambda: self._fileOpen(self.tab9FilePath))
         self.tab9KeywordSearchBtn.clicked.connect(self._tab9KeywordSearch)
 
 
@@ -512,43 +565,42 @@ class TabWidget(QWidget):
         tab9OutLayout.addStretch()
         tab9LeftLayout.addStretch()
 
-
         self.tab9.setLayout(tab9OutLayout)
 
+    ########################################################################
+    #        공용 이벤트 엑션  
+    ########################################################################
+    def _fileOpen(self, value):
+        # 파일을 읽어 특정 문자열이 있는 라인을 추출 한다.
+        fileOpen = QFileDialog.getOpenFileName()
+        value.setText(fileOpen[0])
 
-    def _InsertTableRow(self):
-        maxRowCount = self.tab3Table.rowCount()
-        
-        ckbox = QCheckBox()
-        self.tab3Table.setRowCount(maxRowCount+1)
-        self.tab3Table.setCellWidget(maxRowCount, 0, ckbox)
 
-
-    def _DeleteTableRow(self):
-        print()
-        # self.tab2Table.removeRow()
-
-    def _print(self):
-        # print(self.Line1.text())
-        # self.Line2.setText(self.Line1.text())
-
-        for i in range(9):
-            # configValueInput["tab1LineEdit"+str(i)] = tab6Entries[i].get()
-            print(self.tab2LineEdit[i].text())
-
+    ########################################################################
+    #        각 TAB 별 이벤트 엑션  
+    ########################################################################
+    # Tab1
     def _shutdown(self):
         currtime = QTime.currentTime()
         settime1 = self.tab1ComboBox01.currentText()
         settime2 = self.tab1ComboBox02.currentText()
         settime3 = self.tab1ComboBox03.currentText()
 
-        if settime1 == '오후':
-            settime2 = str(int(settime2) + 12)
+        if self.tab1RadioBtn01.isChecked() == True:
+            if self.tab1SliderLabel.text() == "":
+                QMessageBox.about(self, '저장', '시간 선택 안됨!')
+                return
 
-        self.countTime = currtime.secsTo(QTime.fromString(settime2+settime3+'00','hhmmss'))
+            self.countTime = int(self.tab1SliderLabel.text()) * 60
 
-        if self.countTime < 0 :
-            self.countTime = self.countTime + 86400
+        if self.tab1RadioBtn02.isChecked() == True:
+            if settime1 == '오후':
+                settime2 = str(int(settime2) + 12)
+
+            self.countTime = currtime.secsTo(QTime.fromString(settime2+settime3+'00','hhmmss'))
+
+            if self.countTime < 0 :
+                self.countTime = self.countTime + 86400
 
 
         self.timer = QTimer()
@@ -574,59 +626,89 @@ class TabWidget(QWidget):
         self.tab1Label01.setText('종료')
 
 
+    def _tab1SliderLabel(self, value):
+        self.tab1SliderLabel.setText(str(value))
 
-    ####################################
-    #        각 TAB 별 이벤트 엑션  
-    ####################################
+    # Tab3
+    def _InsertTableRow(self):
+        maxRowCount = self.tab3Table.rowCount()
+        
+        ckbox = QCheckBox()
+        self.tab3Table.setRowCount(maxRowCount+1)
+        self.tab3Table.setCellWidget(maxRowCount, 0, ckbox)
 
-    # Tab1
-    def _tab1MacroStart(self):
-        # playerName = 'Bluestacks'
-        # playerStat = win32gui.FindWindow(None, playerName)
 
-        handle = win32gui.GetForegroundWindow()
+    def _DeleteTableRow(self):
+        print()
+        # self.tab2Table.removeRow()
 
-        wintitle = win32gui.GetWindowText(handle)
+    def _print(self):
+        # print(self.Line1.text())
+        # self.Line2.setText(self.Line1.text())
 
-        print(wintitle)
+        for i in range(9):
+            # configValueInput["tab1LineEdit"+str(i)] = tab6Entries[i].get()
+            print(self.tab2LineEdit[i].text())
+
+    # Tab8
+    def _tab8ExcelCreate(self):
+
+        filePath = self.tab8FilePath.text()
+
+        if filePath == "":
+            QMessageBox.about(self, '선택', '파일을 선택해 주세요!')
+            return
         
 
-    # def _startMacroTimer(self):
-        
-    #     result01 = self._imageSearch(self.imgMacroFile01)
-    #     result02 = self._imageSearch(self.imgMacroFile02)
-    #     result03 = self._imageSearch(self.imgMacroFile03)
-        
-    #     if result01 is None :
-    #         pass
-    #     else:
-    #         pygui.click(result01[0], result01[1])
+        wb = load_workbook(filePath)
+        ws = wb['컬럼']
+        getData = ws['A2:B13']  # 데이터 범위
 
-    #     if result02 is None :
-    #         pass
-    #     else:
-    #         pygui.click(result02[0], result02[1])
+        beforeTableName = ''
+        nowTableName = ''
+        maxDataCnt = len(getData)
+        i = 0
 
-    #     if result03 is None :
-    #         pass
-    #     else:
-    #         pygui.click(result03[0], result03[1])
+        for trow in range(len(getData)):
+            nowTableName = ws.cell(trow+2, 1).value
+            outFileName = beforeTableName+'.sql'
+            
+            if  beforeTableName == '' or beforeTableName != nowTableName:
+                if beforeTableName != '':
+                    fullTextSql = self._tab8FullTextSql(sqlText, beforeTableName)
+                    self._tab8CreateFile(fullTextSql, outFileName)
+                    i = 0
 
-    # def _tab1MacroStop(self):
-    #     self.macroTimer.stop()
-    #     self.tab1MacroLabel01.setText('종료!!')
+                sqlColumnText = ''
+                sqlText = ''
 
 
-    # def _imageSearch(self, imgFile):
-    #     win32gui.FindWindow(None, )
+            sqlColumnText = ws.cell(trow+2, 2).value
+            if i == 0:
+                sqlText = sqlText + '      ' + sqlColumnText + chr(10)
+            else:
+                sqlText = sqlText + '    , ' + sqlColumnText + chr(10)
 
+            if maxDataCnt == trow+1:
+                fullTextSql = self._tab8FullTextSql(sqlText, beforeTableName)
+                self._tab8CreateFile(fullTextSql, outFileName)
+
+            i = i + 1  # 첫번째 컬럼에 (,)를 넣지 않기 위해 체크
+
+            beforeTableName = nowTableName
+        # print(sqlFullText)
+    def _tab8FullTextSql(self, sqlText, tableName):
+        preText = self.tab8TextEdit01.toPlainText()
+        postText = self.tab8TextEdit02.toPlainText()
+
+        return preText + chr(10) + chr(10) + 'select ' + chr(10) + sqlText + 'from  ' + tableName + ';' + chr(10) + chr(10) + postText
+
+    def _tab8CreateFile(self, text, fileName):
+        fw = open(fileName, 'w')
+        fw.write(text)
+        fw.close()
 
     # Tab9
-    def _tab9FileOpen(self):
-        # 파일을 읽어 특정 문자열이 있는 라인을 추출 한다.
-        fileOpen = QFileDialog.getOpenFileName()
-        self.tab9FilePath.setText(fileOpen[0])
-
     def _tab9KeywordSearch(self):
         filePath = self.tab9FilePath.text()
         outPathName = os.path.dirname(filePath) + '/' + Path(filePath).stem + '(copy).txt'
@@ -657,46 +739,3 @@ if __name__ == '__main__':
     gui = MyApp()
     gui.show()
     sys.exit(app.exec_())
-
-
-
-    # # Tab1
-    # def _tab1MacroStart(self):
-    #     self.imgMacroFile01 = 'pyqt5\img\imgFile01.png'
-    #     self.imgMacroFile02 = 'pyqt5\img\imgFile02.png'
-    #     self.imgMacroFile03 = 'pyqt5\img\imgFile03.png'
-
-    #     self.macroTimer = QTimer()
-    #     self.macroTimer.start(1000)    # 1000 = 1초
-        
-    #     self.tab1MacroLabel01.setText('실행중!!')
-    #     self.macroTimer.timeout.connect(self._startMacroTimer)
-
-    # def _startMacroTimer(self):
-        
-    #     result01 = self._imageSearch(self.imgMacroFile01)
-    #     result02 = self._imageSearch(self.imgMacroFile02)
-    #     result03 = self._imageSearch(self.imgMacroFile03)
-        
-    #     if result01 is None :
-    #         pass
-    #     else:
-    #         pygui.click(result01[0], result01[1])
-
-    #     if result02 is None :
-    #         pass
-    #     else:
-    #         pygui.click(result02[0], result02[1])
-
-    #     if result03 is None :
-    #         pass
-    #     else:
-    #         pygui.click(result03[0], result03[1])
-
-    # def _tab1MacroStop(self):
-    #     self.macroTimer.stop()
-    #     self.tab1MacroLabel01.setText('종료!!')
-
-
-    # def _imageSearch(self, imgFile):
-    #     return pygui.locate(imgFile, pygui.screenshot(), confidence=0.9)
