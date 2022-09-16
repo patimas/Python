@@ -211,6 +211,11 @@ class MyApp(QMainWindow):
         configValueInput['tab8TextEdit01'] = self.TabWidget.tab8TextEdit01.toPlainText()
         configValueInput['tab8TextEdit02'] = self.TabWidget.tab8TextEdit02.toPlainText()
 
+        configValueInput['tab8LineEdit01'] = self.TabWidget.tab8LineEdit01.text()
+        configValueInput['tab8LineEdit02'] = self.TabWidget.tab8LineEdit02.text()
+
+        
+
         f = open(self.configFileFullPath,'wb')
         pickle.dump(configValueInput, f)
         f.close()
@@ -247,6 +252,10 @@ class MyApp(QMainWindow):
             # tab8
             self.TabWidget.tab8TextEdit01.setText(self.configValueRead['tab8TextEdit01'])
             self.TabWidget.tab8TextEdit02.setText(self.configValueRead['tab8TextEdit02'])
+
+            self.TabWidget.tab8LineEdit01.setText(self.configValueRead['tab8LineEdit01'])
+            self.TabWidget.tab8LineEdit02.setText(self.configValueRead['tab8LineEdit02'])
+
 
             print('Config Load End!!!')
         except:
@@ -487,21 +496,34 @@ class TabWidget(QWidget):
         tab8GroupBox1 = QGroupBox('소스')
         tab8InnerLayout1 = QHBoxLayout()
         self.tab8FilePath = QLineEdit()
-        self.tab8FilePathdBtn = QPushButton('찾기')
+        self.tab8FilePathdBtn = QPushButton('열기')
         self.tab8ActionBtn = QPushButton('시작')
         tab8InnerLayout1.addWidget(self.tab8FilePath)
         tab8InnerLayout1.addWidget(self.tab8FilePathdBtn)
         tab8InnerLayout1.addWidget(self.tab8ActionBtn)
 
         # Group Box 2
-        tab8GroupBox2 = QGroupBox('Text')
-        tab8InnerLayout2 = QVBoxLayout()
+        tab8GroupBox2 = QGroupBox('Option')
+        tab8InnerLayout2 = QHBoxLayout()
+        tab8Label01 = QLabel('시트명 : ')
+        self.tab8LineEdit01 = QLineEdit()
+        tab8Label02 = QLabel('범위 : ')
+        self.tab8LineEdit02 = QLineEdit()
+        tab8InnerLayout2.addWidget(tab8Label01)
+        tab8InnerLayout2.addWidget(self.tab8LineEdit01)
+        tab8InnerLayout2.addWidget(tab8Label02)
+        tab8InnerLayout2.addWidget(self.tab8LineEdit02)
+
+
+        # Group Box 3
+        tab8GroupBox3 = QGroupBox('Text')
+        tab8InnerLayout3 = QVBoxLayout()
         self.tab8TextEdit01 = QTextEdit()
         self.tab8TextEdit02 = QTextEdit()
         self.tab8TextEdit01.setAcceptRichText(False)  # 모두 플레인 텍스트로 인식합니다.
         self.tab8TextEdit02.setAcceptRichText(False)  # 모두 플레인 텍스트로 인식합니다.
-        tab8InnerLayout2.addWidget(self.tab8TextEdit01)
-        tab8InnerLayout2.addWidget(self.tab8TextEdit02)
+        tab8InnerLayout3.addWidget(self.tab8TextEdit01)
+        tab8InnerLayout3.addWidget(self.tab8TextEdit02)
 
 
         # Action Event
@@ -514,9 +536,11 @@ class TabWidget(QWidget):
         tab8OutLayout.addLayout(tab8RightLayout)
         tab8LeftLayout.addWidget(tab8GroupBox1)
         tab8LeftLayout.addWidget(tab8GroupBox2)
+        tab8LeftLayout.addWidget(tab8GroupBox3)
 
         tab8GroupBox1.setLayout(tab8InnerLayout1)
         tab8GroupBox2.setLayout(tab8InnerLayout2)
+        tab8GroupBox3.setLayout(tab8InnerLayout3)
 
         self.tab8.setLayout(tab8OutLayout)
 
@@ -661,8 +685,8 @@ class TabWidget(QWidget):
         
 
         wb = load_workbook(filePath)
-        ws = wb['컬럼']
-        getData = ws['A2:B13']  # 데이터 범위
+        ws = wb[self.tab8LineEdit01.text()]
+        getData = ws[self.tab8LineEdit02.text()]  # 데이터 범위 'A2:B13'
 
         beforeTableName = ''
         nowTableName = ''
